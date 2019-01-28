@@ -1,2 +1,4 @@
 # React-Indecision-App
-First React Lesson learned
+
+An App for You If you can't choose what to do.
+

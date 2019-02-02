@@ -1,0 +1,25 @@
+.add-option {
+    display: flex;
+    flex-direction: column;
+    padding: $m-size;
+}
+
+.add-option__input {
+    color: $off-white;
+    padding: $s-size;
+    flex-grow: 1;
+    background: $dark-blue;
+    border: none;
+    border-bottom: .3rem solid darken($color: $dark-blue, $amount: 10%);
+    margin: 0 0 $s-size 0;
+}
+
+@media (min-width: $dekstop-breakpoint) {
+  .add-option {
+      flex-direction: row;
+  }
+
+  .add-option__input {
+    margin: 0 $s-size 0 0;
+  }
+}

@@ -1,10 +1,10 @@
 import React from 'react'
 
 const Option = (props) => (
-    <div>
+    <div className="widget__body">
         
-        {props.optionText}
-        <button
+        {props.optionText && <p className="widget--option">{props.count}. {props.optionText}</p>}
+        <button className="button button--link"
           onClick={(e) => {
               props.handleRemoveOne(props.optionText);
           }}
